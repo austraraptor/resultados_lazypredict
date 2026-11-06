@@ -1,0 +1,19 @@
+
+RESUMEN DEL ANÁLISIS
+--------------------
+Dataset              : dataset_inmunizacion_2015_2023.csv (614,465 registros, 2015-2022)
+Faltantes explícitos : 0  | Faltantes implícitos centro-mes: 1,401 (mecanismo: MAR)
+Muestra LazyPredict  : 30,002 (K-S p = 0.935) | Validación Puno: 29,104
+
+REGRESIÓN (y = log_total)
+  Mejor modelo       : XGBRegressor
+  R² ajustado (Lazy) : 0.4982
+  R² prueba / Puno   : 0.5021 / 0.4818
+  MAE prueba / Puno  : 19.84 / 9.30 personas
+
+CLASIFICACIÓN (y = nivel_demanda)
+  Mejor modelo       : LGBMClassifier
+  Bal. Acc. (Lazy)   : 0.6218
+  Bal. Acc. prueba / Puno: 0.6218 / 0.5772
+
+Variable más importante: codcentro_ses

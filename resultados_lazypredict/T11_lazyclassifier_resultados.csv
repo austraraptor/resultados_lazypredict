@@ -1,0 +1,22 @@
+﻿Model,Accuracy,Balanced Accuracy,ROC AUC,F1 Score,Time Taken
+LGBMClassifier,0.6204,0.6218,,0.6162,0.8697
+BaggingClassifier,0.6002,0.6015,,0.5959,0.9965
+KNeighborsClassifier,0.5869,0.5888,,0.5785,0.4291
+DecisionTreeClassifier,0.5582,0.5592,,0.5574,0.2936
+RandomForestClassifier,0.5536,0.5548,,0.5511,2.8512
+ExtraTreesClassifier,0.5091,0.5101,,0.5071,3.8692
+BernoulliNB,0.4898,0.4896,,0.4821,0.2466
+LogisticRegression,0.4863,0.4863,,0.4798,0.6629
+RidgeClassifier,0.4848,0.4848,,0.4759,0.1967
+RidgeClassifierCV,0.4848,0.4848,,0.4759,0.237
+LinearSVC,0.4843,0.4843,,0.4753,0.6449
+CalibratedClassifierCV,0.4821,0.482,,0.4751,2.1012
+LinearDiscriminantAnalysis,0.4813,0.481,,0.477,0.3106
+ExtraTreeClassifier,0.4713,0.4722,,0.4704,0.2056
+AdaBoostClassifier,0.4556,0.4545,,0.4551,2.8829
+GaussianNB,0.4408,0.4448,,0.4179,0.1845
+PassiveAggressiveClassifier,0.4188,0.4236,,0.355,0.2815
+NearestCentroid,0.3766,0.3777,,0.3104,0.1858
+Perceptron,0.3776,0.3768,,0.2933,0.2764
+SGDClassifier,0.3796,0.3726,,0.2626,2.8522
+DummyClassifier,0.3424,0.3333,,0.1747,0.1342
